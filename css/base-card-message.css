@@ -1,0 +1,73 @@
+.base-card-message {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  background: var(--white);
+  position: relative;
+  box-shadow: 0px -2px 5px var(--grey-2);
+}
+
+.base-card-description  {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  overflow: hidden;
+  padding-inline-start: .5rem;
+  position: relative;
+}
+
+.name {
+  font: var(--body-16regular);
+  color: var(--black);
+}
+
+.ellipse {
+  font: var(--caption-12regular);
+  color: var(--grey);
+  padding-inline-start: 1.375rem;
+}
+
+.base-card-description >* {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.base-card-check.is-dobleCheck {
+  background-image: url(../images/dobleCleck.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  height: .625rem;
+  width: 1rem;
+  top: calc(100% - .8rem) ;
+  /* left: 10px; */
+  padding: 0;
+}
+
+.base-card-fecha p{
+  margin: 0;
+  font: var(--caption-12regular);
+  color: var(--grey);
+  position: absolute;
+  top: 3px;
+  right: 20px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.josefa {
+  background: var(--grey-2);
+}
+
+/* @media screen and (min-width: 768px) {
+
+} */

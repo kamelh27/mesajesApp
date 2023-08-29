@@ -1,0 +1,55 @@
+
+
+/* .layout-main {
+  display: none;
+} */
+
+
+
+
+
+.layout-container {
+  display: flex;
+  height: 100%;
+  flex: 1;
+}
+
+.layout-block {
+  display: flex;
+  width: 100%;
+}
+
+
+
+.layout-main {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.active-layout {
+  display: none;
+}
+
+.layout-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .layout-main {
+    flex: 1;
+    width: 70%;
+  }
+
+  .active-layout {
+    display: flex;
+  }
+
+  .layout-bottom {
+    width: 70%;
+  }
+}

@@ -1,0 +1,30 @@
+@import './message.css';
+@import './date.css';
+
+.message-list {
+  display: flex;
+  flex: 1;
+  flex-direction: column-reverse;
+  gap: 1.5rem;
+  background-image: url(../images/bg.png);
+  padding: 1rem 1rem 5rem 1rem;
+  overflow: auto;
+  margin-block-end: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+
+  /* .message-list {
+    padding: 1rem;
+  } */
+
+  /* .message-list {
+    display: flex;
+    flex: 1;
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+    background-image: url(../images/bg.png);
+    padding: 1rem;
+    overflow: auto;
+  } */
+}

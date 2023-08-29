@@ -1,0 +1,25 @@
+.date {
+  background-color: #E5F2FA;
+  border-radius: .5rem;
+  text-align: center;
+  padding: .635rem;
+  font: var(--body-16regular);
+  align-self: center;
+}
+
+.message-status {
+  inline-size: 1rem;
+  block-size: 1rem;
+}
+
+.message-status.is-dobleCheck{
+  background-image: url(../images/PngItem_3900365\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.message-details{
+  display: flex;
+  justify-content: flex-end;
+  gap: .25rem;
+}

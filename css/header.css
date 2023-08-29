@@ -1,0 +1,32 @@
+.header, .header-chat {
+  block-size: var(--headerSize);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: var(--grey-4);
+}
+/* 
+.header-chat {
+ justify-content: stretch;
+} */
+
+.sticky{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  backdrop-filter: blur(2rem);
+}
+
+.header-primary, .header-secondary {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+
+@media screen and (min-width: 768px) {
+  .ocultar {
+    display: none;
+  }
+}

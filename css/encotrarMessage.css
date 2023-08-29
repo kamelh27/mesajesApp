@@ -1,0 +1,75 @@
+.encotrarMessage {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding-inline-start: 1rem;
+  padding-block: 1rem;
+  background: var(--white);
+  
+}
+
+
+
+.encotrarMessage p {
+  margin: 0;
+  color: var(--grey);
+  font: var(--caption-12regular);
+}
+
+
+.visto {
+  inline-size: 1rem;
+  block-size: 1rem; 
+  padding-inline: 1rem;
+}
+
+.visto.is-dobleCheck {
+  background-image: url(../images/PngItem_3900365\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.message.visto a, span{
+ font: var(--body-16regular);
+}
+
+.fecha {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding: 1rem;
+  background: var(--white);
+  box-shadow: 0px -2px 5px var(--grey-2);
+}
+
+
+
+.fecha .caledario {
+  margin: 0;
+  font: var(--caption-12regular);
+  color: var(--grey);
+}
+
+.fecha-container {
+  position: relative;
+  display: flex;
+  
+}
+
+.fechaMessage {
+  margin: 0;
+  font: var(--body-16regular);
+  padding-inline-start: 1.5rem;
+}
+
+i.icon-x-2 {
+  display: none;
+  position: absolute;
+  left: 80%;
+  cursor: pointer;
+  transition: ease .3s;
+}
+
+.hidden-div {
+  display: none;
+}

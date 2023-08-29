@@ -1,0 +1,85 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+  background: white;
+  font: var(--body-16regular);
+  position: relative;
+  padding: .5rem;
+}
+
+.message-text {
+  margin: 0
+}
+
+.message-text a {
+  font: var(--body-16regular);
+  font-size: 15px;
+}
+
+.message-text p{
+  padding-inline: .5rem;
+  padding-block-start: .5rem;
+}
+
+.message.is-receiver {
+  background-color: var(--white);
+  align-self: flex-start;
+  border-radius: 0 .5rem .5rem .5rem;
+}
+
+
+.message-svg-left svg{
+  position: absolute; 
+  width: 12px;
+  height: 13px;
+  display: block;
+  top: 0;
+  inset-inline-end: 99.5% ;
+  color: var(--white);
+}
+
+.message-svg-right svg{
+  width: 12px;
+  height: 12px;
+  display: block;
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 99%;
+  color: var(--green-1);
+}
+
+
+
+.message.is-sender {
+  background-color: var(--green-1);
+  align-self: flex-end;
+  border-radius: .5rem  0rem .5rem .5rem ; 
+}
+
+
+
+.message-date {
+  font: var(--caption-12regular);
+  color: var(--grey);
+}
+
+@media screen and (min-width: 768px) {
+  /* .message {
+    width: 100%;
+  } */
+
+  .message-text p{
+    padding: 0;
+  }
+
+  .message.is-receiver {
+    max-width: 35.187rem ;
+    position: relative;
+  }
+
+  .message.is-sender {
+    max-width: 25.75rem;
+    position: relative;
+  }
+}

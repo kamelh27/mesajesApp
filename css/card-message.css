@@ -1,0 +1,59 @@
+@import './base-card-message.css';
+
+/* .card-messange {
+  display: none;
+} */
+
+.oculta-cardMessage {
+  display: none;
+}
+
+.card-messange {
+  width: 100%;
+}
+
+.active-cardMessage {
+  display: flex;
+}
+
+.card-messangeInput {
+  width: 100%;
+  padding-block: .875rem ;
+  padding-inline-start: 3rem;
+  border-radius: 3.125rem;
+  font: var(--body-16regular);
+  position: relative;
+  border: none;
+}
+
+.card-messangeInput:focus {
+  outline: none;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  padding: 1rem;
+  background: var(--grey-3);
+}
+
+.search i {
+  position: absolute;
+  z-index: 1;
+  left: 23px;
+  top: calc(50% - .75rem);
+}
+
+@media screen and (min-width: 768px) {
+  .card-messange {
+    overflow: hidden;
+    width: 30%;
+  }
+
+  .card-messangeInput {
+    padding-inline-start: 5rem;
+  }
+
+}

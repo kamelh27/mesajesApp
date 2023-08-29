@@ -1,0 +1,17 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  block-size: 100vh;
+}
+
+.chats h2{
+  display: flex;
+  padding: 1rem;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .chats h2 {
+    display: none;
+  }
+}

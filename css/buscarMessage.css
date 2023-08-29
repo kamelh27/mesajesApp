@@ -1,0 +1,23 @@
+@import './encotrarMessage.css';
+
+.buscarMessage{
+  display: none;
+}
+.buscarMessage {
+  background: var(--grey-2);
+  width: 100%;
+}
+
+.infoBuscar {
+  display: flex;
+  align-items:center ;
+  gap: 1rem;
+  padding-inline-start: 1rem;
+  padding-block: 1rem;
+  
+}
+
+.infoBuscar p {
+  margin: 0;
+  font: var(--body-16regular);
+}

@@ -1,0 +1,26 @@
+.user {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.user p span {
+  display: block;
+  padding-block-end: 4px;
+}
+
+.user img{
+  border-radius: 50% ;
+  cursor: pointer;
+}
+
+.user-name{
+  color: var(--black);
+  font: var(--body-16regular);
+}
+
+.user-status {
+  color: var(--grey);
+  font: var(--caption-12regular);
+  text-transform: uppercase;
+}

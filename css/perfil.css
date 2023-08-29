@@ -1,0 +1,48 @@
+@import './header-perfil.css';
+
+.perfil {
+  width: 100%;
+  height: 100%;
+  background: var(--grey-2);
+}
+
+.perfil-oculto {
+  display: none;
+}
+
+.perfil-acivado {
+  display: none;
+}
+
+.header-perfil {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  gap: 1rem;
+  padding-inline-start: 1rem;
+}
+
+.header-perfil-container {
+  display: flex;
+  block-size: var(--headerPerfil);
+  background: var(--green-2);
+}
+
+.perfil-container {
+  background: var(--grey-2); 
+  padding-block-start:2.5rem ;
+}
+
+.header-perfil p {
+  color: var(--white);
+  font: var(--body-16regular);
+}
+
+.is-white {
+  color: var(--white);
+}
+
+
+
+
+

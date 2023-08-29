@@ -1,0 +1,41 @@
+.actions {
+  block-size: var(--actionSize);
+  display: flex;
+  align-items: center;
+  background: var(--grey-4);
+  flex: 1;
+}
+
+.actions-button {
+  display: flex;
+  gap: 1rem;
+  padding-inline: 1rem ;
+}
+
+
+.action-form {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 1rem;
+  padding-inline-end: 1rem;
+  flex: 1;
+}
+
+
+.action-form--input {
+  border-radius: 3.125rem;
+  border: none;
+  padding: 1rem 1.5rem;
+  width: 100%;
+  font: var(--body-16regular);
+  color: var(--black);
+}
+
+.action-form--input:focus {
+  outline: none;
+}
+
+.action-form--input::placeholder {
+  color: var(--grey);
+}
